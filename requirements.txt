@@ -3,6 +3,3 @@ tensorflow-addons
 astropy<5.0
 protobuf==3.20.3
 einops==0.7.0
-notebook
-matplotlib
-numpy
