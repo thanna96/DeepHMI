@@ -1,0 +1,16 @@
+name: deephmi
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - notebook
+  - jupyterlab
+  - numpy
+  - matplotlib
+  - astropy<5.0
+  - pip:
+      - tensorflow==2.6.0
+      - tensorflow-addons
+      - protobuf==3.20.3
+      - einops==0.7.0
